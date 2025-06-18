@@ -6,11 +6,29 @@ body {
     color: #333;
 }
 
-header {
+/* 🔴 Header section with photos */
+.header-with-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #d10000;
     color: white;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.header-content {
     text-align: center;
-    padding: 20px 10px;
+    flex: 1;
+}
+
+.header-image img {
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .tagline {
@@ -50,7 +68,7 @@ footer {
     padding: 10px;
 }
 
-
+/* 🔻 For the optional photo banner elsewhere (if needed) */
 .banner {
     display: flex;
     justify-content: center;
@@ -66,4 +84,3 @@ footer {
     border: 2px solid white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-
