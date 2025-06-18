@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #d10000;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.open, .date {
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #d10000;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.contact p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #d10000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
